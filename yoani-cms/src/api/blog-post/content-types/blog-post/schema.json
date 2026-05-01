@@ -24,10 +24,10 @@
       "type": "text",
       "required": true
     },
-    "content": {
-      "type": "blocks",
-      "required": true
-    },
+  "content": {
+  "type": "richtext",
+  "required": true
+},
     "date": {
       "type": "datetime",
       "required": true
