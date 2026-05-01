@@ -15,10 +15,10 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "blocks",
-      "required": true
-    },
+ "description": {
+  "type": "richtext",
+  "required": true
+},
     "icon": {
       "type": "media",
       "multiple": true,
