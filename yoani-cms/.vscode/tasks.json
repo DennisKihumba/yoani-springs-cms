@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Init Git Repo",
+			"type": "shell",
+			"command": "git"
+		},
+		{
+			"label": "Push Updates",
+			"type": "shell",
+			"command": "powershell -File 'C:\\Users\\kihum\\OneDrive\\Desktop\\Yoani spring website\\backend\\push_script.ps1'"
+		}
+	]
+}
