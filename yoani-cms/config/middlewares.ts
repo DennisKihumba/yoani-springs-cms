@@ -1,6 +1,4 @@
-import type { Core } from '@strapi/strapi';
-
-export default ({ env }) => [
+export default [
   'strapi::logger',
   'strapi::errors',
   'strapi::security',
@@ -11,7 +9,6 @@ export default ({ env }) => [
         'http://localhost:3000',
         'http://localhost:1337',
         'https://yoani-frontend.vercel.app',
-        env('FRONTEND_URL', 'https://yoani-frontend.vercel.app'),
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS', 'HEAD'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
