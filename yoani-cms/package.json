@@ -1,0 +1,42 @@
+{
+  "name": "yoani-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application for Yoani Springs Academy",
+  "scripts": {
+    "build": "npx strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.43.0",
+    "@strapi/plugin-users-permissions": "5.43.0",
+    "@strapi/strapi": "5.43.0",
+    "pg": "^8.20.0",
+    "pg-connection-string": "^2.12.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "074bcce7-9cb2-4471-a782-cdf0e5687434",
+    "installId": "0acc48aa10d4cc0cfeab1ce621ee0c60453ce6584076a33f0e27a1806f41f3da"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parent_resources",
+  "info": {
+    "singularName": "parent-resource",
+    "pluralName": "parent-resources",
+    "displayName": "Parent Resource"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "pdfFile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "isComingSoon": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "externalLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

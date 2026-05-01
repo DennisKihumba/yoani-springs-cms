@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "description": "Workspace wrapper to run the Yoani CMS Strapi app from the backend root.",
+    "scripts": {
+        "develop": "cd yoani-cms && npm run develop",
+        "dev": "cd yoani-cms && npm run dev",
+        "build": "cd yoani-cms && npm run build",
+        "start": "cd yoani-cms && npm run start"
+    }
+}
