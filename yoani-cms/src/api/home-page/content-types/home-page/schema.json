@@ -19,10 +19,10 @@
       "type": "string",
       "required": true
     },
-    "welcomeText": {
-      "type": "blocks",
-      "required": true
-    },
+  "welcomeText": {
+  "type": "richtext",
+  "required": true
+},
     "stats": {
       "type": "json",
       "required": true
