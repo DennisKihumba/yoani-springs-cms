@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: yoani-springs-cms
+    runtime: node
+    rootDir: yoani-cms
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
