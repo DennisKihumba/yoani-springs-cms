@@ -9,8 +9,8 @@ export default [
         'http://localhost:3000',
         'http://localhost:1337',
         'https://yoani-frontend.vercel.app',
-        'https://yoanisprings.co.ke',       // ✅ ADD THIS
-        'https://www.yoanisprings.co.ke',   // ✅ ADD THIS
+        'https://yoanisprings.co.ke',
+        'https://www.yoanisprings.co.ke',
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS', 'HEAD'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
